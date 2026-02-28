@@ -87,10 +87,14 @@ This campaign demonstrates how targeting high-value credential boundaries within
 
 ---
 
-## References
-https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html
-https://youtu.be/Yxv1suJYMI8?si=Mcs8tCiXmsjxQoiG
-https://youtu.be/II91fiUax2g?si=SpTQq9kLzku_k3wl
 
-- Public reporting on malicious Go module campaign
-- MITRE ATT&CK Framework – https://attack.mitre.org
+## References
+
+1. The Hacker News – “Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor”  
+   https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html
+
+2. Simply Cyber – MITRE ATT&CK Overview (YouTube)  
+   https://youtu.be/Yxv1suJYMI8
+
+3. Cyber Kill Chain Explanation (YouTube)  
+   https://youtu.be/II91fiUax2g
