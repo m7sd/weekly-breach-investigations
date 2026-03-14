@@ -131,10 +131,14 @@ Security Operations Centers should prioritize monitoring **administrative activi
 
 ---
 
+
 ## References
 
-- https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/
-- https://abcnews.go.com/International/pro-iran-hacking-group-claims-responsibility-cyberattack-stryker/story?id=130979414
-- https://www.siliconrepublic.com/enterprise/strykers-cork-site-struck-in-cyberattack-handala-iran
-- https://cybersecuritynews.com/stryker-cyber-attack/
-- https://attack.mitre.org/
+- SecurityWeek – MedTech Giant Stryker Crippled by Iran-Linked Hacker Attack  
+  https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/
+
+- ABC News – Pro-Iran hacking group claims responsibility for cyberattack on Stryker  
+  https://abcnews.go.com/International/pro-iran-hacking-group-claims-responsibility-cyberattack-stryker/story?id=130979414
+
+- MITRE ATT&CK Framework  
+  https://attack.mitre.org/
