@@ -1,0 +1,153 @@
+# Weekly Breach Investigation – Week 04
+## FBI Warning: Russian Hackers Target Signal & WhatsApp in Mass Phishing Campaign
+
+**Date:** 22 March 2026
+
+---
+
+## 1. Executive Summary
+
+In March 2026, the Federal Bureau of Investigation (FBI) issued a warning regarding an ongoing cyber campaign conducted by Russian-linked threat actors targeting users of secure messaging platforms such as Signal and WhatsApp. The campaign leverages mass phishing techniques to compromise user accounts, harvest credentials, and potentially gain access to sensitive communications.
+
+Unlike traditional email-based phishing, this campaign specifically targets mobile and messaging environments, where users often place higher trust in communications. Attackers use impersonation tactics, malicious links, and fake login portals to deceive victims into providing authentication credentials or session tokens.
+
+The activity highlights a growing trend of identity-focused attacks against communication platforms, which are widely used by enterprises, government personnel, journalists, and activists. Compromising these platforms can enable espionage, surveillance, and further lateral attacks, making them high-value targets for nation-state actors.
+
+---
+
+## 2. Threat Actor Profile
+
+Group: Russian-linked threat actors (specific attribution varies)
+
+Type: Nation-state / espionage-focused threat actor
+
+### Motivation
+
+The campaign appears to focus on intelligence gathering, surveillance, and access to sensitive communications, rather than financial gain. These operations are often aligned with geopolitical objectives.
+
+### Target Sectors
+
+- Government officials and agencies
+- Journalists and media organizations
+- Activists and NGOs
+- Corporate executives and enterprise users
+
+### Known Activities
+
+Russian-linked groups have historically conducted:
+
+- Credential phishing campaigns
+- Email and messaging platform compromises
+- Intelligence collection and long-term surveillance operations
+
+### Operational Characteristics
+
+- Use of targeted phishing (spear phishing via messaging apps)
+- Impersonation of trusted contacts or organizations
+- Deployment of fake authentication portals
+- Focus on account takeover rather than system destruction
+
+---
+
+## 3. Attack Timeline
+
+### Initial Targeting (March 2026)
+
+Threat actors initiated a mass phishing campaign targeting Signal and WhatsApp users, focusing on individuals with access to sensitive communications.
+
+### Phishing Delivery
+
+Victims received malicious messages containing phishing links, often disguised as:
+
+- Security alerts
+- Account verification requests
+- Messages from trusted contacts
+
+### Credential Harvesting
+
+Users who clicked the links were redirected to fraudulent login pages designed to mimic legitimate Signal or WhatsApp interfaces, where credentials or verification codes were captured.
+
+### Account Compromise
+
+Attackers used stolen credentials or session tokens to gain unauthorized access to victim accounts, enabling them to read messages and impersonate users.
+
+### Potential Lateral Targeting
+
+Compromised accounts may have been used to:
+
+- Send phishing messages to additional victims
+- Expand access within trusted communication networks
+
+---
+
+## 4. MITRE ATT&CK Mapping
+
+| Tactic | Technique | ID |
+|------|------|------|
+| Initial Access | Phishing | T1566 |
+| Credential Access | Credentials from Web Forms | T1056.003 |
+| Execution | User Execution | T1204 |
+| Persistence | Valid Accounts | T1078 |
+| Collection | Data from Information Repositories | T1213 |
+| Exfiltration | Exfiltration Over C2 Channel | T1041 |
+
+---
+
+## 5. Detection Opportunities
+
+### Log Sources
+
+- Identity and authentication logs (IAM systems)
+- Mobile device management (MDM) logs
+- Endpoint Detection and Response (EDR) telemetry
+- Network traffic monitoring systems
+- Messaging platform security alerts
+- Security Information and Event Management (SIEM) alerts
+
+### Detection Ideas
+
+- Detect login attempts from unusual geographic locations or devices
+- Monitor for multiple failed login attempts followed by successful authentication
+- Identify access to accounts from new or unrecognized devices
+- Detect users clicking suspicious or known phishing URLs
+- Monitor abnormal session activity on messaging platforms
+- Identify rapid outbound messaging patterns from compromised accounts
+
+### Indicators of Concern
+
+- Login activity from unfamiliar IP addresses or regions
+- Sudden changes in device fingerprinting or session tokens
+- Users reporting unexpected login prompts or verification requests
+- Messages containing suspicious or shortened URLs
+- Multiple contacts receiving identical phishing messages from a known user
+
+---
+
+## 6. Recommended Mitigations
+
+1. Enforce Multi-Factor Authentication (MFA) across all communication platforms
+2. Implement phishing-resistant authentication methods (e.g., FIDO2)
+3. Conduct user awareness training focused on messaging-based phishing
+4. Deploy mobile threat defense (MTD) solutions to monitor malicious links
+5. Restrict access based on device trust and conditional access policies
+6. Monitor and block known phishing domains and malicious URLs
+
+---
+
+## 7. Analyst Notes
+
+This campaign reflects a shift toward mobile-first and identity-centric attack strategies, where attackers prioritize access to communication channels rather than traditional endpoints. Messaging platforms such as Signal and WhatsApp are increasingly attractive targets due to their widespread use and the sensitive nature of conversations conducted on them.
+
+Unlike destructive attacks or ransomware campaigns, this operation focuses on stealth, persistence, and intelligence collection, which are common characteristics of nation-state cyber activity. The ability to compromise trusted communication channels also enables attackers to propagate further phishing attacks within social and professional networks.
+
+Security Operations Centers should prioritize identity monitoring, anomaly detection in login behavior, and phishing detection within non-email channels as communication platforms continue to evolve.
+
+---
+
+## References
+
+- The Hacker News – FBI Warns Russian Hackers Target Signal & WhatsApp in Phishing Attacks  
+  https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html
+
+- MITRE ATT&CK Framework  
+  https://attack.mitre.org/
