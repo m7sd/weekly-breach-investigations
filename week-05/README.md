@@ -143,7 +143,7 @@ The incident reinforces a critical lesson: the absence of Multi-Factor Authentic
 
 ## References
 
-- Snowflake Data Breach Reports – Ticketmaster and Santander Incidents  
-- Public Cybersecurity Analysis of UNC5537 Activity  
+- [The Hacker News – FBI Warns Russian Hackers Target Signal & WhatsApp](https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html)
+
 - MITRE ATT&CK Framework  
   https://attack.mitre.org/
