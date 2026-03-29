@@ -143,8 +143,6 @@ The incident reinforces a critical lesson: the absence of Multi-Factor Authentic
 
 ## References
 
-- [Snowflake Investigates Data Breach Affecting Multiple Customers](https://www.securityweek.com/snowflake-investigates-data-breach-affecting-multiple-customers/)
-
-- [Ticketmaster Confirms Data Breach Linked to Snowflake Accounts](https://www.reuters.com/technology/ticketmaster-owner-live-nation-confirms-data-breach-2024-05-31/)
+- [Infosecurity Europe – Stolen Credentials Fuel Snowflake Data Breaches: Lessons Learned](https://www.infosecurityeurope.com/en-gb/blog/threat-vectors/snowflake-data-breaches-lessons-learned.html)
 
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
