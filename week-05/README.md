@@ -143,7 +143,8 @@ The incident reinforces a critical lesson: the absence of Multi-Factor Authentic
 
 ## References
 
-- [The Hacker News – FBI Warns Russian Hackers Target Signal & WhatsApp](https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html)
+- [Snowflake Data Breach (Ticketmaster Incident)](https://thehackernews.com/2024/05/ticketmaster-confirms-data-breach.html)
 
-- MITRE ATT&CK Framework  
-  https://attack.mitre.org/
+- [Analysis of UNC5537 Activity](https://www.mandiant.com/resources/blog/unc5537-snowflake-data-theft)
+
+- [MITRE ATT&CK Framework](https://attack.mitre.org/)
