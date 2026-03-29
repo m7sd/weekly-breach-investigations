@@ -143,8 +143,8 @@ The incident reinforces a critical lesson: the absence of Multi-Factor Authentic
 
 ## References
 
-- [Snowflake Data Breach (Ticketmaster Incident)](https://thehackernews.com/2024/05/ticketmaster-confirms-data-breach.html)
+- [Snowflake Investigates Data Breach Affecting Multiple Customers](https://www.securityweek.com/snowflake-investigates-data-breach-affecting-multiple-customers/)
 
-- [Analysis of UNC5537 Activity](https://www.mandiant.com/resources/blog/unc5537-snowflake-data-theft)
+- [Ticketmaster Confirms Data Breach Linked to Snowflake Accounts](https://www.reuters.com/technology/ticketmaster-owner-live-nation-confirms-data-breach-2024-05-31/)
 
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
