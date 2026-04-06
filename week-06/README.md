@@ -1,7 +1,7 @@
 # Weekly Breach Investigation – Week 06
 ## $285 Million Drift Hack (DPRK Social Engineering Campaign)
 
-**Date:** 5 April 2026
+**Date:** 6 April 2026
 
 ---
 
