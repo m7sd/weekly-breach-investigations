@@ -1,7 +1,7 @@
 # Weekly Breach Investigation – Week 07
 ## Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region
 
-**Date:** 12 April 2026
+**Date:** 11 April 2026
 
 ---
 
